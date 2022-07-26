@@ -13,7 +13,7 @@
 <body>
     <!-- top navbar start  -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light py-3">
+        <nav class="navbar navbar-expand-lg bg-light py-3 fixed-top-scroll">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav w-100 justify-content-end">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link fw-semibold" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link fw-semibold"  href="#bag">Bag</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="#contact">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="#">About</a>
                   </li>
                 </ul>
               </div>
@@ -38,7 +44,7 @@
     <!-- top navbar end  -->
 
     <!-- main banner section start -->
-    <main class="container bg-warning p-4 rounded">
+    <main class="container bg-warning p-4 rounded my-3">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -126,7 +132,7 @@
     <!-- Catagory Section end -->
 
     <!-- shoes catagory section start -->
-    <section class="container">
+    <section class="container" id="shoes">
         <h2 class="my-5 fw-bold">Shoes</h2>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -167,7 +173,7 @@
     </section>
     <!-- shoes catagory section end -->
     <!-- Bag catagory section start -->
-    <section class="container">
+    <section class="container" id="bag">
         <h2 class="my-5 fw-bold">Bag</h2>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -210,7 +216,7 @@
 
     <!-- subcribe section text message start  -->
 
-    <section class="my-5">
+    <section class="my-5" id="contact">
         <div class="container rounded bg-warning subcribe d-flex justify-content-center">
             <div>
                 <h2 class="fw-bold">LET'S STAY IN TOUCH</h2>
